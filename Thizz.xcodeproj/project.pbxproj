@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAFD35F91B199E3200C9593E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFD35F81B199E3200C9593E /* AppDelegate.swift */; };
+		FAFD35FB1B199E3200C9593E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFD35FA1B199E3200C9593E /* ViewController.swift */; };
+		FAFD35FE1B199E3200C9593E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFD35FC1B199E3200C9593E /* Main.storyboard */; };
+		FAFD36001B199E3200C9593E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFD35FF1B199E3200C9593E /* Images.xcassets */; };
+		FAFD36031B199E3200C9593E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAFD36011B199E3200C9593E /* LaunchScreen.xib */; };
+		FAFD360F1B199E3200C9593E /* ThizzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFD360E1B199E3200C9593E /* ThizzTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAFD36091B199E3200C9593E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAFD35EB1B199E3200C9593E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAFD35F21B199E3200C9593E;
+			remoteInfo = Thizz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAFD35F31B199E3200C9593E /* Thizz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thizz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFD35F71B199E3200C9593E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFD35F81B199E3200C9593E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAFD35FA1B199E3200C9593E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAFD35FD1B199E3200C9593E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAFD35FF1B199E3200C9593E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAFD36021B199E3200C9593E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FAFD36081B199E3200C9593E /* ThizzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThizzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFD360D1B199E3200C9593E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFD360E1B199E3200C9593E /* ThizzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThizzTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAFD35F01B199E3200C9593E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFD36051B199E3200C9593E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAFD35EA1B199E3200C9593E = {
+			isa = PBXGroup;
+			children = (
+				FAFD35F51B199E3200C9593E /* Thizz */,
+				FAFD360B1B199E3200C9593E /* ThizzTests */,
+				FAFD35F41B199E3200C9593E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAFD35F41B199E3200C9593E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAFD35F31B199E3200C9593E /* Thizz.app */,
+				FAFD36081B199E3200C9593E /* ThizzTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAFD35F51B199E3200C9593E /* Thizz */ = {
+			isa = PBXGroup;
+			children = (
+				FAFD35F81B199E3200C9593E /* AppDelegate.swift */,
+				FAFD35FA1B199E3200C9593E /* ViewController.swift */,
+				FAFD35FC1B199E3200C9593E /* Main.storyboard */,
+				FAFD35FF1B199E3200C9593E /* Images.xcassets */,
+				FAFD36011B199E3200C9593E /* LaunchScreen.xib */,
+				FAFD35F61B199E3200C9593E /* Supporting Files */,
+			);
+			path = Thizz;
+			sourceTree = "<group>";
+		};
+		FAFD35F61B199E3200C9593E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAFD35F71B199E3200C9593E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAFD360B1B199E3200C9593E /* ThizzTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAFD360E1B199E3200C9593E /* ThizzTests.swift */,
+				FAFD360C1B199E3200C9593E /* Supporting Files */,
+			);
+			path = ThizzTests;
+			sourceTree = "<group>";
+		};
+		FAFD360C1B199E3200C9593E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAFD360D1B199E3200C9593E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAFD35F21B199E3200C9593E /* Thizz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFD36121B199E3200C9593E /* Build configuration list for PBXNativeTarget "Thizz" */;
+			buildPhases = (
+				FAFD35EF1B199E3200C9593E /* Sources */,
+				FAFD35F01B199E3200C9593E /* Frameworks */,
+				FAFD35F11B199E3200C9593E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thizz;
+			productName = Thizz;
+			productReference = FAFD35F31B199E3200C9593E /* Thizz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAFD36071B199E3200C9593E /* ThizzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFD36151B199E3200C9593E /* Build configuration list for PBXNativeTarget "ThizzTests" */;
+			buildPhases = (
+				FAFD36041B199E3200C9593E /* Sources */,
+				FAFD36051B199E3200C9593E /* Frameworks */,
+				FAFD36061B199E3200C9593E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAFD360A1B199E3200C9593E /* PBXTargetDependency */,
+			);
+			name = ThizzTests;
+			productName = ThizzTests;
+			productReference = FAFD36081B199E3200C9593E /* ThizzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAFD35EB1B199E3200C9593E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Stan van Oers";
+				TargetAttributes = {
+					FAFD35F21B199E3200C9593E = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					FAFD36071B199E3200C9593E = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = FAFD35F21B199E3200C9593E;
+					};
+				};
+			};
+			buildConfigurationList = FAFD35EE1B199E3200C9593E /* Build configuration list for PBXProject "Thizz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAFD35EA1B199E3200C9593E;
+			productRefGroup = FAFD35F41B199E3200C9593E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAFD35F21B199E3200C9593E /* Thizz */,
+				FAFD36071B199E3200C9593E /* ThizzTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAFD35F11B199E3200C9593E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFD35FE1B199E3200C9593E /* Main.storyboard in Resources */,
+				FAFD36031B199E3200C9593E /* LaunchScreen.xib in Resources */,
+				FAFD36001B199E3200C9593E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFD36061B199E3200C9593E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAFD35EF1B199E3200C9593E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFD35FB1B199E3200C9593E /* ViewController.swift in Sources */,
+				FAFD35F91B199E3200C9593E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFD36041B199E3200C9593E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFD360F1B199E3200C9593E /* ThizzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAFD360A1B199E3200C9593E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAFD35F21B199E3200C9593E /* Thizz */;
+			targetProxy = FAFD36091B199E3200C9593E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAFD35FC1B199E3200C9593E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFD35FD1B199E3200C9593E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAFD36011B199E3200C9593E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFD36021B199E3200C9593E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAFD36101B199E3200C9593E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAFD36111B199E3200C9593E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAFD36131B199E3200C9593E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Thizz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAFD36141B199E3200C9593E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Thizz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAFD36161B199E3200C9593E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ThizzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thizz.app/Thizz";
+			};
+			name = Debug;
+		};
+		FAFD36171B199E3200C9593E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ThizzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thizz.app/Thizz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAFD35EE1B199E3200C9593E /* Build configuration list for PBXProject "Thizz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFD36101B199E3200C9593E /* Debug */,
+				FAFD36111B199E3200C9593E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFD36121B199E3200C9593E /* Build configuration list for PBXNativeTarget "Thizz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFD36131B199E3200C9593E /* Debug */,
+				FAFD36141B199E3200C9593E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAFD36151B199E3200C9593E /* Build configuration list for PBXNativeTarget "ThizzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFD36161B199E3200C9593E /* Debug */,
+				FAFD36171B199E3200C9593E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAFD35EB1B199E3200C9593E /* Project object */;
+}
